@@ -1,8 +1,12 @@
 import React from 'react'
-import { BoxWallet } from './ConnectWalletStyled'
+import { BoxWallet, TestoBox } from './ConnectWalletStyled'
 
 const ConnectWallet = () => {
-  return <BoxWallet />
+  return (
+    <BoxWallet>
+      <TestoBox>Connected Wallet</TestoBox>
+    </BoxWallet>
+  )
 }
 
 export default ConnectWallet
