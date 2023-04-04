@@ -3,6 +3,7 @@ import { ContainerDiv } from '../../../login/LoginStyled'
 import { ColProfilo } from '../../../shared/ColProfilo'
 import { ConnectWallet } from '../../../shared/connectwallet'
 import { ModeOperation } from '../../../shared/modeoperation'
+import { TokenBalance } from '../../../shared/tokenbalance'
 
 const HomePage = () => {
   return (
@@ -15,8 +16,13 @@ const HomePage = () => {
       }}
     >
       <ColProfilo></ColProfilo>
-      <ConnectWallet />
-      <ModeOperation />
+      <div style={{ display: 'flex', flexDirection: 'column' }}>
+        <div style={{ display: 'flex', flexDirection: 'row' }}>
+          <ConnectWallet />
+          <ModeOperation />
+        </div>
+        <TokenBalance />
+      </div>
     </ContainerDiv>
   )
 }
