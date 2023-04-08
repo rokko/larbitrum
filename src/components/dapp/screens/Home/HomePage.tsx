@@ -1,9 +1,10 @@
 import React from 'react'
 import { ContainerDiv } from '../../../login/LoginStyled'
 import { ColProfilo } from '../../../shared/ColProfilo'
-import { ConnectWallet } from '../../../shared/connectwallet'
-import { ModeOperation } from '../../../shared/modeoperation'
 import { TokenBalance } from '../../../shared/tokenbalance'
+import { SelectNetwork } from '../../../shared/selectnetwork'
+import { CurrentBalance } from '../../../shared/currentbalance'
+import { ConnectWallet } from '../../../shared/connectwallet'
 
 const HomePage = () => {
   return (
@@ -18,8 +19,9 @@ const HomePage = () => {
       <ColProfilo></ColProfilo>
       <div style={{ display: 'flex', flexDirection: 'column' }}>
         <div style={{ display: 'flex', flexDirection: 'row' }}>
+          <SelectNetwork />
+          <CurrentBalance />
           <ConnectWallet />
-          <ModeOperation />
         </div>
         <TokenBalance />
       </div>

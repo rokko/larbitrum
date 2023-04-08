@@ -7,5 +7,12 @@ const BoxCurrentBalance = styled.div`
   opacity: 1;
   padding: 1rem;
 `
-
-export { BoxCurrentBalance }
+const TestoPiccoloSottoBalance = styled.p`
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal normal 16px/25px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 0.4;
+`
+export { BoxCurrentBalance, TestoPiccoloSottoBalance }
