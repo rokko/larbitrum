@@ -1,6 +1,10 @@
 import React from 'react'
 import { ContainerDiv } from '../../../login/LoginStyled'
 import { ColProfilo } from '../../../shared/ColProfilo'
+import { SelectNetwork } from '../../../shared/selectnetwork'
+import { CurrentBalance } from '../../../shared/currentbalance'
+import { ConnectWallet } from '../../../shared/connectwallet'
+import { Boxstorico } from '../../../shared/boxstorico'
 
 const HistoryPage = () => {
   return (
@@ -13,6 +17,21 @@ const HistoryPage = () => {
       }}
     >
       <ColProfilo></ColProfilo>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: 'row',
+            gap: '1rem',
+            marginLeft: '1rem',
+          }}
+        >
+          <SelectNetwork />
+          <CurrentBalance />
+          <ConnectWallet />
+        </div>
+        <Boxstorico />
+      </div>
     </ContainerDiv>
   )
 }
