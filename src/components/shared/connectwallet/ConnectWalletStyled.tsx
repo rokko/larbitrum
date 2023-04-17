@@ -15,5 +15,6 @@ const TestoBox = styled.p`
   color: #3a3a3c;
   opacity: 1;
   font-size: 20px;
+  margin: 0px;
 `
 export { BoxWallet, TestoBox }

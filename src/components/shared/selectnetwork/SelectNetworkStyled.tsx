@@ -6,6 +6,7 @@ const BoxSelectNetwork = styled.div`
   background: #131315 0% 0% no-repeat padding-box;
   border-radius: 20px;
   opacity: 1;
+  padding: 1rem;
 `
 
 const NetworkLogo = styled.img`
@@ -21,5 +22,6 @@ const TestoBiancoGrande = styled.p`
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
+  margin: 0px;
 `
 export { BoxSelectNetwork, NetworkLogo, TestoBiancoGrande }

@@ -11,7 +11,12 @@ const SelectNetwork = () => {
     <BoxSelectNetwork>
       <TestoBox>Selected Network</TestoBox>
       <div
-        style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}
+        style={{
+          display: 'flex',
+          flexDirection: 'row',
+          alignItems: 'center',
+          gap: '2rem',
+        }}
       >
         <NetworkLogo src={Binace}></NetworkLogo>
         <TestoBiancoGrande>Binance Smart Chain</TestoBiancoGrande>

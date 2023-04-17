@@ -6,6 +6,6 @@ const BoxModeOperation = styled.div`
   background: #131315 0% 0% no-repeat padding-box;
   border-radius: 20px;
   opacity: 1;
-  padding: 0.5rem;
+  padding: 1rem;
 `
 export { BoxModeOperation }

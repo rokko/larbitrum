@@ -7,6 +7,11 @@ const BoxdeiCoin = styled.div`
   opacity: 1;
   width: 76.25vw;
   height: 4.68vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  gap: 20rem;
 `
 
 export { BoxdeiCoin }

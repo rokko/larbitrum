@@ -10,9 +10,11 @@ const BoxCurrentBalance = styled.div`
 const TestoPiccoloSottoBalance = styled.p`
   color: var(--unnamed-color-ffffff);
   text-align: left;
-  font: normal normal normal 16px/25px Poppins;
+  font-family: PoppinsNormal;
+  font-size: 16px;
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 0.4;
+  margin: 0px;
 `
 export { BoxCurrentBalance, TestoPiccoloSottoBalance }

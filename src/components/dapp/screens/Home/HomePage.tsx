@@ -17,8 +17,15 @@ const HomePage = () => {
       }}
     >
       <ColProfilo></ColProfilo>
-      <div style={{ display: 'flex', flexDirection: 'column' }}>
-        <div style={{ display: 'flex', flexDirection: 'row' }}>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: 'row',
+            gap: '1rem',
+            marginLeft: '1rem',
+          }}
+        >
           <SelectNetwork />
           <CurrentBalance />
           <ConnectWallet />
