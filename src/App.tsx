@@ -6,10 +6,19 @@ import HistoryPage from './components/dapp/screens/Home/History'
 import Operations from './components/dapp/screens/Home/Operations'
 import Settings from './components/dapp/screens/Home/Settings'
 import { Landing } from './components/dapp/screens/Landing'
+import { createGlobalStyle } from 'styled-components'
 
+const GlobalStyle = createGlobalStyle`
+
+    * {
+  box-sizing: border-box;
+}
+  
+`
 const App: React.FC = () => {
   return (
     <BrowserRouter>
+      <GlobalStyle />
       <Switch>
         <Route path="/" component={Landing} />
         <Route path="/login" component={Login} />
