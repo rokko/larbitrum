@@ -6,6 +6,7 @@ const BoxProfile = styled.div`
   background: #00c7be80 0% 0% no-repeat padding-box;
   border-radius: 20px;
   opacity: 1;
+  margin-top: 2rem;
 `
 
 export { BoxProfile }
