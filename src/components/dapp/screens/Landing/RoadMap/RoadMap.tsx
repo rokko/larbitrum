@@ -1,8 +1,8 @@
 import React from 'react'
-import { ReactComponent as RoadMapI } from '../assets/sezioni/Roadmap.svg'
+import RoMap from '../assets/sezioni/RoadMap.png'
 
 const RoadMap = () => {
-  return <RoadMapI />
+  return <img src={RoMap} style={{ maxWidth: '1580px', height: '397px' }} />
 }
 
 export default RoadMap
