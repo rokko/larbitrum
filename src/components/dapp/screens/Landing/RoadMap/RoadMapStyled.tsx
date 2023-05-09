@@ -20,6 +20,7 @@ const SezioneTitolo = styled.div`
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  align-items: center;
   width: 1300px;
 `
 const TestoSezione = styled.p`

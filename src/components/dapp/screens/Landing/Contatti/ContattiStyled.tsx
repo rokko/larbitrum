@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const ContainerPrezzo = styled.div`
+const ContainerContatti = styled.div`
   width: 100%;
   align-items: center;
   align-content: center;
@@ -8,7 +8,4 @@ const ContainerPrezzo = styled.div`
   justify-content: center;
   flex-direction: column;
 `
-
-const BoxPrezzo = styled.div``
-
-export { ContainerPrezzo, BoxPrezzo }
+export { ContainerContatti }

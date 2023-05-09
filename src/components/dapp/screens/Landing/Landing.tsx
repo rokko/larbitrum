@@ -6,6 +6,8 @@ import { RoadMap } from './RoadMap'
 import { Obiettivo } from './Obiettivo'
 import { Calcolatore } from './Calcolatore'
 import { Prezzo } from './Prezzo'
+import { Contatti } from './Contatti'
+import { Sviluppatori } from './Sviluppatori'
 
 const Landing = () => {
   return (
@@ -16,6 +18,8 @@ const Landing = () => {
       <RoadMap />
       <Calcolatore />
       <Prezzo />
+      <Contatti />
+      <Sviluppatori />
       <FooterLanding />
     </div>
   )
