@@ -1,5 +1,5 @@
 import React from 'react'
-import { ContainerContatti } from './ContattiStyled'
+import { BoxContatti, ContainerContatti, InputInfo } from './ContattiStyled'
 import { SezioneTitolo, TitoloSezione } from '../RoadMap/RoadMapStyled'
 const Contatti = () => {
   return (
@@ -7,6 +7,10 @@ const Contatti = () => {
       <SezioneTitolo>
         <TitoloSezione>Contatti</TitoloSezione>
       </SezioneTitolo>
+      <BoxContatti>
+        <InputInfo></InputInfo>
+        <InputInfo></InputInfo>
+      </BoxContatti>
     </ContainerContatti>
   )
 }
