@@ -1,11 +1,18 @@
 import styled from 'styled-components'
 
 const ContainerCalcolatore = styled.div`
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+`
+
+const ContenitoreBoxCalcolatori = styled.div`
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
 `
 
 const BoxCalcolatore = styled.div`
@@ -17,4 +24,4 @@ const BoxCalcolatore = styled.div`
   opacity: 1;
 `
 
-export { ContainerCalcolatore, BoxCalcolatore }
+export { ContainerCalcolatore, BoxCalcolatore, ContenitoreBoxCalcolatori }

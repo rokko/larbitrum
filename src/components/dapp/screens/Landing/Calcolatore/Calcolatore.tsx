@@ -1,12 +1,27 @@
 import React from 'react'
-import { BoxCalcolatore, ContainerCalcolatore } from './CalcolatoreStyled'
+import {
+  BoxCalcolatore,
+  ContainerCalcolatore,
+  ContenitoreBoxCalcolatori,
+} from './CalcolatoreStyled'
+import {
+  SezioneTitolo,
+  TestoSezione,
+  TitoloSezione,
+} from '../RoadMap/RoadMapStyled'
 
 const Calcolatore = () => {
   return (
     <ContainerCalcolatore>
-      <BoxCalcolatore></BoxCalcolatore>
-      <BoxCalcolatore></BoxCalcolatore>
-      <BoxCalcolatore></BoxCalcolatore>
+      <SezioneTitolo>
+        <TitoloSezione>Calcolatore</TitoloSezione>
+        <TestoSezione>Stima il tuo profitto</TestoSezione>
+      </SezioneTitolo>
+      <ContenitoreBoxCalcolatori>
+        <BoxCalcolatore></BoxCalcolatore>
+        <BoxCalcolatore></BoxCalcolatore>
+        <BoxCalcolatore></BoxCalcolatore>
+      </ContenitoreBoxCalcolatori>
     </ContainerCalcolatore>
   )
 }

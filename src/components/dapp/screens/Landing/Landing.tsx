@@ -9,7 +9,7 @@ import { Prezzo } from './Prezzo'
 
 const Landing = () => {
   return (
-    <div style={{ backgroundColor: 'black' }}>
+    <div style={{ backgroundColor: 'black', padding: '2rem' }}>
       <HeaderLanding />
       <Centrale />
       <Obiettivo />
