@@ -2,6 +2,9 @@ import styled from 'styled-components'
 const ContainerCentrale = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  height: 100vh;
 `
 const TitoloGrande = styled.p`
   /* UI Properties */

@@ -8,9 +8,12 @@ import {
   TextButtonConnect,
 } from './HeaderLandingStyled'
 
+import Logo from '../../../../../assets/images/logo.png'
+
 const HeaderLanding = () => {
   return (
     <ContainerHeader>
+      <img src={Logo} width={'178px'} height={'28px'} />
       <SectionTesti>
         <TestiTitoli>Home</TestiTitoli>
         <TestiTitoli>RoadMap</TestiTitoli>

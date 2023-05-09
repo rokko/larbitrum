@@ -11,8 +11,10 @@ import {
 const Centrale = () => {
   return (
     <ContainerCentrale>
-      <TitoloGrande>Bevenuti in</TitoloGrande>
-      <TitoloGrandeSpan>Larbitrum!</TitoloGrandeSpan>
+      <div>
+        <TitoloGrande>Bevenuti in</TitoloGrande>
+        <TitoloGrandeSpan>Larbitrum!</TitoloGrandeSpan>
+      </div>
       <Sottotitolo>
         Una piattaforma che utilizza la tecnologia blockchain per
         <br /> offrire un'opportunità di investimento unica per gli
