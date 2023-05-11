@@ -6,6 +6,7 @@ const ContainerHeader = styled.div`
   justify-content: space-evenly;
   align-items: center;
   align-content: center;
+  position: relative;
 `
 const ConnectWalletButton = styled.div`
   width: 202px;
@@ -14,6 +15,7 @@ const ConnectWalletButton = styled.div`
   background: #00cbbf 0% 0% no-repeat padding-box;
   border-radius: 15px;
   opacity: 1;
+  z-index: 10;
   display: flex;
   align-items: center;
   align-content: center;
@@ -37,6 +39,7 @@ const SectionTesti = styled.div`
   display: flex;
   flex-direction: row;
   gap: 1rem;
+  z-index: 10;
 `
 
 const TestiTitoli = styled.p`

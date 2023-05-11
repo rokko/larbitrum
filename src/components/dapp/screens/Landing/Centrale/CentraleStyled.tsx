@@ -6,6 +6,8 @@ const ContainerCentrale = styled.div`
   gap: 1rem;
   height: 100vh;
   padding: 8rem;
+  position: relative;
+  margin-top: 50px;
 `
 const TitoloGrande = styled.p`
   /* UI Properties */

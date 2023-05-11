@@ -8,11 +8,13 @@ import {
   TitoloGrande,
   TitoloGrandeSpan,
 } from './CentraleStyled'
+
+import fotoDestra from '../../../../../../src/assets/images/fotodestra.png'
 const Centrale = () => {
   return (
     <ContainerCentrale>
       <div>
-        <TitoloGrande>Bevenuti in</TitoloGrande>
+        <TitoloGrande>Benvenuti in</TitoloGrande>
         <TitoloGrandeSpan>Larbitrum!</TitoloGrandeSpan>
       </div>
       <Sottotitolo>
@@ -23,6 +25,16 @@ const Centrale = () => {
       <ButtonApp>
         <TextButtonApp>Vai all'App</TextButtonApp>
       </ButtonApp>
+      <img
+        src={fotoDestra}
+        style={{
+          position: 'absolute',
+          top: '0px',
+          left: ' 878px',
+          width: '967px',
+          height: '800px',
+        }}
+      />
     </ContainerCentrale>
   )
 }
