@@ -5,6 +5,7 @@ const ContainerCentrale = styled.div`
   justify-content: center;
   gap: 1rem;
   height: 100vh;
+  padding: 8rem;
 `
 const TitoloGrande = styled.p`
   /* UI Properties */
