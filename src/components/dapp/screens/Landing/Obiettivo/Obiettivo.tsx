@@ -7,6 +7,8 @@ import {
   TitoloObiettivo,
 } from './ObiettivoStyled'
 
+import Cerchilaterali from '../../../../../assets/images/cerchilaterali.png'
+
 const Obiettivo = () => {
   return (
     <ContainerObiettivo>
@@ -47,6 +49,18 @@ const Obiettivo = () => {
           piattaforma affidabile e sicura costruita sulla tecnologia blockchain.
         </TestoObiettivo>
       </ContainerTestoObiettivo>
+      <img
+        src={Cerchilaterali}
+        style={{
+          position: 'absolute',
+          width: '1400px',
+          height: ' 800px',
+          transform: 'matrix(0.97, -0.24, 0.24, 0.97, 0, 0)',
+          opacity: '0.59',
+          top: '0px',
+          left: '400px',
+        }}
+      />
     </ContainerObiettivo>
   )
 }

@@ -7,21 +7,39 @@ const ContainerCalcolatore = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
+  gap: 3rem;
 `
 
 const ContenitoreBoxCalcolatori = styled.div`
   display: flex;
   flex-direction: row;
   gap: 2rem;
+  padding: 2rem;
 `
 
 const BoxCalcolatore = styled.div`
   width: 448px;
   height: 120px;
+  padding: 2rem;
   /* UI Properties */
+
   background: #131315 0% 0% no-repeat padding-box;
   border-radius: 15px;
   opacity: 1;
+  display: flex;
+  flex-direction: column;
 `
 
-export { ContainerCalcolatore, BoxCalcolatore, ContenitoreBoxCalcolatori }
+const TestoSuperioreBox = styled.p`
+  text-align: left;
+  font: normal normal normal 20px/24px Raleway;
+  letter-spacing: 0px;
+  color: #727274;
+  opacity: 1;
+`
+export {
+  ContainerCalcolatore,
+  BoxCalcolatore,
+  ContenitoreBoxCalcolatori,
+  TestoSuperioreBox,
+}

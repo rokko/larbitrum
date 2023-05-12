@@ -4,6 +4,8 @@ const ContainerObiettivo = styled.div`
   height: 90vh;
   display: flex;
   flex-direction: row;
+  padding: 10rem;
+  position: relative;
 `
 const TitoloObiettivo = styled.p`
   text-align: left;
@@ -14,7 +16,7 @@ const TitoloObiettivo = styled.p`
   justify-content: center;
 `
 const ContainerTitoloObiettivo = styled.div`
-  width: 40%;
+  width: 30%;
 `
 const TestoObiettivo = styled.p`
   text-align: left;
@@ -25,7 +27,7 @@ const TestoObiettivo = styled.p`
 `
 
 const ContainerTestoObiettivo = styled.div`
-  width: 50%;
+  width: 70%;
 `
 export {
   ContainerObiettivo,

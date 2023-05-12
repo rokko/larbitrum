@@ -7,6 +7,7 @@ const ContainerRoadmap = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
+  gap: 3rem;
 `
 
 const TitoloSezione = styled.p`
@@ -22,6 +23,7 @@ const SezioneTitolo = styled.div`
   flex-direction: row;
   align-items: center;
   width: 1300px;
+  border-bottom: 1px solid #00cbbf;
 `
 const TestoSezione = styled.p`
   text-align: right;

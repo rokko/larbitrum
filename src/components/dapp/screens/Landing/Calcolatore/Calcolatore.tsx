@@ -3,6 +3,7 @@ import {
   BoxCalcolatore,
   ContainerCalcolatore,
   ContenitoreBoxCalcolatori,
+  TestoSuperioreBox,
 } from './CalcolatoreStyled'
 import {
   SezioneTitolo,
@@ -18,9 +19,15 @@ const Calcolatore = () => {
         <TestoSezione>Stima il tuo profitto</TestoSezione>
       </SezioneTitolo>
       <ContenitoreBoxCalcolatori>
-        <BoxCalcolatore></BoxCalcolatore>
-        <BoxCalcolatore></BoxCalcolatore>
-        <BoxCalcolatore></BoxCalcolatore>
+        <BoxCalcolatore>
+          <TestoSuperioreBox>Saldo</TestoSuperioreBox>
+        </BoxCalcolatore>
+        <BoxCalcolatore>
+          <TestoSuperioreBox>Tempo</TestoSuperioreBox>
+        </BoxCalcolatore>
+        <BoxCalcolatore>
+          <TestoSuperioreBox>Profitto Stimato</TestoSuperioreBox>
+        </BoxCalcolatore>
       </ContenitoreBoxCalcolatori>
     </ContainerCalcolatore>
   )
