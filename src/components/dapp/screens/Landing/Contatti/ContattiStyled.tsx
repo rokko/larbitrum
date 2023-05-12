@@ -7,6 +7,10 @@ const ContainerContatti = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
+  position: relative;
+  gap: 3rem;
+  margin-top: 200px;
+  margin-bottom: 200px;
 `
 
 const BoxContatti = styled.div`
@@ -19,6 +23,7 @@ const BoxContatti = styled.div`
   display: flex;
   flex-direction: row;
   opacity: 1;
+  z-index: 10;
 `
 
 const InputInfo = styled.input`

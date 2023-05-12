@@ -1,5 +1,5 @@
 import React from 'react'
-import { ContainerPrezzo } from './PrezzoStyled'
+import { BoxPrezzo, Container3Prezzi, ContainerPrezzo } from './PrezzoStyled'
 import {
   SezioneTitolo,
   TestoSezione,
@@ -13,6 +13,11 @@ const Prezzo = () => {
         <TitoloSezione>Prezzo</TitoloSezione>
         <TestoSezione>Composizione dei pacchetti disponibili</TestoSezione>
       </SezioneTitolo>
+      <Container3Prezzi>
+        <BoxPrezzo></BoxPrezzo>
+        <BoxPrezzo></BoxPrezzo>
+        <BoxPrezzo></BoxPrezzo>
+      </Container3Prezzi>
     </ContainerPrezzo>
   )
 }
