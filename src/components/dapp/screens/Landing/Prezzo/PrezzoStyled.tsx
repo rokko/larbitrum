@@ -58,6 +58,29 @@ const SecondoTitolo = styled.p`
   opacity: 1;
 `
 
+const BoxTestoPrezzo = styled.div`
+  width: 434px;
+  height: 114px;
+  /* UI Properties */
+  background-color: #010101;
+  background: transparent #010101 0% 0% no-repeat padding-box;
+  border: 6px solid #00cbbf;
+  border-radius: 15px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content:center
+  z-index: 100;
+`
+
+const PrezzoTesto = styled.p`
+  text-align: left;
+  font: normal normal 600 80px/94px Raleway;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+`
 const ButtonCompra = styled.div`
   width: 282px;
   height: 60px;
@@ -100,4 +123,6 @@ export {
   ContainerCheck,
   SecondoTitolo,
   TitoloGroup,
+  BoxTestoPrezzo,
+  PrezzoTesto,
 }

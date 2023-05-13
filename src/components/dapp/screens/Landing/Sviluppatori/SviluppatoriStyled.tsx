@@ -8,6 +8,7 @@ const ContainerSviluppatori = styled.div`
   justify-content: center;
   flex-direction: column;
   gap: 3rem;
+  margin-bottom: 50px;
 `
 
 const BoxMission = styled.div`
