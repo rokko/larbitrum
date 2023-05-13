@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-
 const ContainerCalcolatore = styled.div`
   width: 100%;
   align-items: center;
@@ -20,7 +19,7 @@ const ContenitoreBoxCalcolatori = styled.div`
 const BoxCalcolatore = styled.div`
   width: 448px;
   height: 120px;
-  padding: 2rem;
+
   /* UI Properties */
 
   background: #131315 0% 0% no-repeat padding-box;
@@ -28,6 +27,7 @@ const BoxCalcolatore = styled.div`
   opacity: 1;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 `
 
 const TestoSuperioreBox = styled.p`
