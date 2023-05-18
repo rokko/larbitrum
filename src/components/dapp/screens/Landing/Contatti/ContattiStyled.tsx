@@ -21,7 +21,8 @@ const BoxContatti = styled.div`
   background-color: #131315;
   border-radius: 15px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  gap: 3rem;
   opacity: 1;
   z-index: 10;
 `
@@ -35,4 +36,13 @@ const InputInfo = styled.input`
   border-radius: 15px;
   opacity: 1;
 `
-export { ContainerContatti, BoxContatti, InputInfo }
+
+const TestoSopraInput = styled.p`
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 22px/26px Raleway;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+`
+export { ContainerContatti, BoxContatti, InputInfo, TestoSopraInput }

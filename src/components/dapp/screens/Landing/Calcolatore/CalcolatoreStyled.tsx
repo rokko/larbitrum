@@ -7,6 +7,8 @@ const ContainerCalcolatore = styled.div`
   justify-content: center;
   flex-direction: column;
   gap: 3rem;
+  position: relative;
+  z-index: 100;
 `
 
 const ContenitoreBoxCalcolatori = styled.div`
@@ -37,9 +39,23 @@ const TestoSuperioreBox = styled.p`
   color: #727274;
   opacity: 1;
 `
+
+const BoxGiorni = styled.div`
+  width: 61px;
+  height: 55px;
+  /* UI Properties */
+  background: #00cbbf 0% 0% no-repeat padding-box;
+  border-radius: 15px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+`
 export {
   ContainerCalcolatore,
   BoxCalcolatore,
   ContenitoreBoxCalcolatori,
   TestoSuperioreBox,
+  BoxGiorni,
 }
