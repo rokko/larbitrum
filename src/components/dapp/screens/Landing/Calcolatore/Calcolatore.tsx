@@ -1,6 +1,7 @@
 import React from 'react'
 import {
   BoxCalcolatore,
+  BoxGiorni,
   ContainerCalcolatore,
   ContenitoreBoxCalcolatori,
   TestoSuperioreBox,
@@ -11,6 +12,8 @@ import {
   TitoloSezione,
 } from '../RoadMap/RoadMapStyled'
 import { Input } from '@mui/joy'
+
+import RigheSinistra from '../../../../../assets/images/cerchilaterali.png'
 
 const Calcolatore = () => {
   return (
@@ -36,6 +39,18 @@ const Calcolatore = () => {
         </BoxCalcolatore>
         <BoxCalcolatore>
           <TestoSuperioreBox>Tempo</TestoSuperioreBox>
+          <div
+            style={{
+              display: 'flex',
+              flexDirection: 'row',
+              width: '100%',
+              gap: '2rem',
+            }}
+          >
+            <BoxGiorni>1 gg</BoxGiorni>
+            <BoxGiorni>180 gg</BoxGiorni>
+            <BoxGiorni>360 gg</BoxGiorni>
+          </div>
         </BoxCalcolatore>
         <BoxCalcolatore>
           <TestoSuperioreBox>Profitto Stimato</TestoSuperioreBox>
@@ -43,6 +58,7 @@ const Calcolatore = () => {
             size="lg"
             variant="soft"
             style={{
+              zIndex: 10,
               width: '423px',
               height: ' 55px',
               background: ' #1C1C1E 0% 0% no-repeat padding-box',
@@ -55,6 +71,15 @@ const Calcolatore = () => {
           />
         </BoxCalcolatore>
       </ContenitoreBoxCalcolatori>
+
+      <img
+        src={RigheSinistra}
+        style={{
+          width: '900px',
+          position: 'absolute',
+          left: '-100px',
+        }}
+      />
     </ContainerCalcolatore>
   )
 }
