@@ -21,6 +21,7 @@ const ContenitoreBoxCalcolatori = styled.div`
 const BoxCalcolatore = styled.div`
   width: 448px;
   height: 120px;
+  padding-left: 1rem;
 
   /* UI Properties */
 

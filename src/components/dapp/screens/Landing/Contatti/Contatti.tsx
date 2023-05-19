@@ -109,20 +109,38 @@ const Contatti = () => {
             />
           </div>
         </div>
-        <Textarea
+
+        <div
           style={{
-            zIndex: 10,
-            width: '1134px',
-            height: '135px',
-            background: ' #1C1C1E 0% 0% no-repeat padding-box',
-            borderRadius: '15px',
-            opacity: 1,
-            outline: 'none',
-            border: 'none',
-            textDecoration: 'none !important',
+            display: 'flex',
+            flexDirection: 'row',
+            justifyContent: 'space-evenly',
           }}
-          minRows={3}
-        ></Textarea>
+        >
+          <div
+            style={{
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'center',
+            }}
+          >
+            <TestoSopraInput>Messaggio*</TestoSopraInput>
+            <Textarea
+              style={{
+                zIndex: 10,
+                width: '1134px',
+                height: '135px',
+                background: ' #1C1C1E 0% 0% no-repeat padding-box',
+                borderRadius: '15px',
+                opacity: 1,
+                outline: 'none',
+                border: 'none',
+                textDecoration: 'none !important',
+              }}
+              minRows={3}
+            ></Textarea>
+          </div>
+        </div>
       </BoxContatti>
       <img
         src={Cerchio}

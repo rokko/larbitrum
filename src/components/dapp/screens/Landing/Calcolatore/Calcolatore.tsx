@@ -34,6 +34,7 @@ const Calcolatore = () => {
               background: ' #1C1C1E 0% 0% no-repeat padding-box',
               borderRadius: '15px',
               opacity: 1,
+              marginTop: '-20px',
             }}
           />
         </BoxCalcolatore>
@@ -67,6 +68,7 @@ const Calcolatore = () => {
               outline: 'none',
               border: 'none',
               textDecoration: 'none !important',
+              marginTop: '-15px',
             }}
           />
         </BoxCalcolatore>
